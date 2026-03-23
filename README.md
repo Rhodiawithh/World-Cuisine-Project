@@ -1,6 +1,18 @@
-# World-Cuisine-Project
-World Cuisine is a cultural food discovery and recipe web platform built with JavaScript. Its purpose is to help travelers and food lovers explore authentic dishes, recipes, and local restaurants from around the world — all in one place. The problem it addresses is simple: finding genuine local food information is currently fragmented across generic recipe sites, travel blogs, and unreliable search results. World Cuisine brings everything together in a single, culture-focused destination.
-What we will implement
-The platform will allow users to browse dishes and culinary traditions by country or region, access step-by-step authentic recipes, and find local restaurants serving traditional food. Users will also be able to create accounts and save their favorite dishes and restaurants for future reference.
-On the technical side, the application will follow a three-layer architecture. The presentation layer will handle everything the user sees — a public web interface for browsing and a personal account interface for managing favorites. The application layer will contain all the business logic, including a search service for filtering by country, dish, or restaurant, a user account service for managing profiles and authentication, core business logic for handling dish and recipe data, and a favorites manager. The data layer will store all content in a relational SQL database with tables for Users, Countries, Dishes, Recipes, and Restaurants.
-The architecture was chosen with three priorities in mind: simplicity (fast response times through optimized queries and lightweight design), agility (a modular structure that allows new features like reviews or recommendations to be added later without rebuilding the system), and scalability (the ability to handle growing content and user traffic as the platform expands to more countries and cuisines).
+Project Title: World Cuisine – Discover, Cook & Share
+Project Description:
+World Cuisine is a web application that allows users to explore traditional dishes from around the world through an interactive map. Each country provides access to a list of authentic dishes, where users can view detailed recipes, including ingredients and preparation steps.
+The platform also helps users connect with real-life experiences by suggesting nearby restaurants that serve the selected dish, based on the user’s location.
+Additionally, users can interact with the platform by saving their favorite dishes, rating restaurants they have visited, and sharing their own cooking experiences by uploading photos and descriptions.
+An admin system is implemented to ensure content quality by approving user posts and restaurant listings.
+Main Features:
+•	Interactive world map with clickable countries
+•	Traditional dishes with detailed recipes
+•	Favorite system for saving dishes
+•	Location-based restaurant suggestions
+•	Restaurant rating system
+•	User-generated content (photo + description)
+•	Admin moderation system
+•	User authentication (login/register required)
+Objective:
+The goal of this project is to combine cultural discovery, cooking, and social interaction into a single platform, offering users both educational and practical value.
+
