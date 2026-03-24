@@ -1,4 +1,9 @@
 Project Title: World Cuisine – Discover, Cook & Share
+
+Team members: Bouziane Yassine, Chanou Rhodia, Dathevy Ilyes, Perron Loup
+
+Tech stack: SQL database, business logic layered architecture, responsive web interface
+
 Project Description:
 World Cuisine is a web application that allows users to explore traditional dishes from around the world through an interactive map. Each country provides access to a list of authentic dishes, where users can view detailed recipes, including ingredients and preparation steps.
 The platform also helps users connect with real-life experiences by suggesting nearby restaurants that serve the selected dish, based on the user’s location.
